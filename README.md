@@ -19,7 +19,7 @@ curl -H 'Content-Type: application/x-ndjson' -XPOST 'localhost:9200/shakespeare/
 
 ## How to Start
 
-After establishing the Rabbit MQ connection, you can just use 
+After establishing the Elastic Search connection on 'http://localhost:9200/', you can just use 
 ```mvn spring-boot:run``` to start the application.
 
 ## Start Querying
