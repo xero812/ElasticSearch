@@ -15,7 +15,9 @@ https://download.elastic.co/demos/kibana/gettingstarted/shakespeare_6.0.json
 
 ## Load into Elastic
 
+```
 curl -H 'Content-Type: application/x-ndjson' -XPOST 'localhost:9200/shakespeare/doc/_bulk?pretty' --data-binary @shakespeare_6.0.json
+```
 
 ## How to Start
 
