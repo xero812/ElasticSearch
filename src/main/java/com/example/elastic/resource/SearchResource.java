@@ -13,7 +13,7 @@ import java.util.List;
  *
  */
 @RestController
-@RequestMapping("/rest/search")
+@RequestMapping("/shakespeare")
 public class SearchResource {
 
     @Autowired
